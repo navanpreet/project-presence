@@ -1,0 +1,31 @@
+.redwood-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trunk {
+    background-color: brown;
+    height: 200px;
+    width: 40px;
+    margin-bottom: 50px;
+}
+
+.branch {
+    background-color: green;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.branch.branch1 {
+    transform: rotate(-30deg);
+}
+
+.branch.branch2 {
+    transform: rotate(30deg);
+}
+
+.branch.branch3 {
+    transform: rotate(-60deg);
+}
